@@ -1,0 +1,34 @@
+{
+  "name": "notifier-slack-sns",
+  "version": "0.0.0",
+  "description": "Notification system via Slack and SNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CompAndSave/notifier-slack-sns.git"
+  },
+  "keywords": [
+    "aws sns",
+    "slack"
+  ],
+  "author": "Andrew Y",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CompAndSave/notifier-slack-sns/issues"
+  },
+  "homepage": "https://github.com/CompAndSave/notifier-slack-sns#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.900.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0"
+  }
+}
