@@ -6,7 +6,10 @@
 
 ## Initialization
 ```
+const AWS = require('aws-sdk');
 const Notifier = require('notifier-slack-sns');
+
+AWS.config.update({ region: YOUR_AWS_REGION });
 
 Notifier.systemErrorSNS = YOUR_SYSTEM_ERROR_SNS_TOPIC;
 Notifier.systemErrorSlack = YOUR_SYSTEM_ERROR_SLACK_URL;
