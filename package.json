@@ -25,10 +25,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@aws-sdk/client-sns": "^3.358.0",
-    "axios": "^1.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.43.0"
+    "@aws-sdk/client-sns": "^3.629.0",
+    "axios": "^1.7.4"
   }
 }
