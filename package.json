@@ -1,6 +1,6 @@
 {
   "name": "notifier-slack-sns",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Notification system via Slack and SNS",
   "main": "index.js",
   "scripts": {
