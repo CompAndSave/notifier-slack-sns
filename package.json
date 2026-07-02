@@ -25,7 +25,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@aws-sdk/client-sns": "^3.629.0",
-    "axios": "^1.7.4"
+    "@aws-sdk/client-sns": "^3.1078.0",
+    "axios": "^1.18.1"
   }
 }
